@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "loadDataTestExample",
+    "packageName": "com.octopussoftware.app",
+    "packageFolder": "com/octopussoftware/app",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "YWJjYTA4NjRjOTEyN2U4YmI3NzRmNGQ5NzNhNmU0NDgxY2VjODg2MzIwNzAxNDYwOGU2ZmE2MGY4ZTViY2M4Y2U3ODFhZTZlYmY3NjhlNTdmNWE3ZWQyYTEwMDIzYzQ4MGQxODM5ZTc1ZjlmMGZmYzI5ODIxYzE1MzlkMjA0ZDM=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "ShaneOctopus",
+  "repository-name": "loadData-test-example"
+}

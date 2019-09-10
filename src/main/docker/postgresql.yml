@@ -1,0 +1,11 @@
+version: '2'
+services:
+  loaddatatestexample-postgresql:
+    image: postgres:11.4
+    # volumes:
+    #     - ~/volumes/jhipster/loadDataTestExample/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=loadDataTestExample
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
